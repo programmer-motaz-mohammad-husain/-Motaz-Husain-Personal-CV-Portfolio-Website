@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: STC Regular;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* NAVBAR */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f44336;
+}
+
+/* Clear float */
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+section {
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+	text-align:center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2, h3 {
+    color: darkblue;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #f44336;
+    text-decoration: none;
+}
+
+.profile {
+    width: 150px;        
+    height: 150px;       
+    border-radius: 50%;  
+    object-fit: cover;   
+    display: block;
+    margin: 20px auto;  
+}
+
+.project-date {
+    font-family: "STC Regular", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+    /* Gradient Text */
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Optional subtle effect */
+    letter-spacing: 0.5px;
+}
